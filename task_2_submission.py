@@ -138,26 +138,18 @@ def primary_func():
     return g_scaling_factor*cost_fun(ret_prob(res.x, num_shots_g, True, True, False))
 
 # Execution 
-cost_arr = np.zeros(9)
-num_shots_arr = np.array([1,4,16,64,256,1024,4096,8192,16384])
+cost_arr = np.zeros(5)
+num_shots_arr = np.array([1,10,100,1000,10000])
 num_shots_g = 1
 cost_arr[0] = primary_func()
-num_shots_g = 4
+num_shots_g = 10
 cost_arr[1] = primary_func()
-num_shots_g = 16
+num_shots_g = 100
 cost_arr[2] = primary_func()
-num_shots_g = 64
+num_shots_g = 1000
 cost_arr[3] = primary_func()
-num_shots_g = 256
+num_shots_g = 10000
 cost_arr[4] = primary_func()
-num_shots_g = 1024
-cost_arr[5] = primary_func()
-num_shots_g = 4096
-cost_arr[6] = primary_func()
-num_shots_g = 8192
-cost_arr[7] = primary_func()
-num_shots_g = 16384
-cost_arr[8] = primary_func()
 
 # Results
 plt.figure(num=None, figsize=(14, 10), dpi=80, facecolor='w', edgecolor='k')
