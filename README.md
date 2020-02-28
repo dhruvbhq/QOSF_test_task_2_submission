@@ -2,7 +2,7 @@
 This is Dhruv Bhatnagar's submission to the QOSF assessment task no. 2.
 
 Some information to interpret the code:
-1. The code is based on IBM's qiskit library - please configure your setup/credentials correctly to run is.
+1. The code is based on IBM's qiskit library - please configure your setup/credentials correctly to run it.
 2. The approach used is to take an ansatz for the quantum circuit and to optimize the output a cost function.
 3. The cost function calculates the difference between the probability mass function (pmf) of the circuit and the desired pmf.
 4. The parameters over which optimization is carried out are the angles of rotation for the quantum gates involved.
