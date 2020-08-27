@@ -1,6 +1,9 @@
 # QOSF_test_task_2_submission
 This is Dhruv Bhatnagar's submission to the QOSF assessment task no. 2.
 
+*Update - August 2020*
+*As per the results of the QC mentorship program (QOSF) opening tasks, this submission was among the 56 to be accepted into the program and to have finished the task that the organization asked for, from almost 200 people that applied.*
+
 Some information to interpret the code:
 1. The code is based on IBM's qiskit library - please configure your setup/credentials correctly to run it.
 2. The approach used is to take an ansatz for the quantum circuit and to optimize the output a cost function.
