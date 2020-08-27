@@ -2,7 +2,13 @@
 This is Dhruv Bhatnagar's submission to the QOSF assessment task no. 2.
 
 *Update - August 2020*
+
 *As per the results of the QC mentorship program (QOSF) opening tasks, this submission was among the 56 to be accepted into the program and to have finished the task that the organization asked for, from almost 200 people that applied.*
+
+*The problem statement for task 2 was to implement a circuit which returns a given quantum state with certain requirements, such as the type of gates allowed were fixed, and optimizing to find the right set of parameters for the task.*
+
+*\<End of update\>*
+
 
 Some information to interpret the code:
 1. The code is based on IBM's qiskit library - please configure your setup/credentials correctly to run it.
